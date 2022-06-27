@@ -19,6 +19,6 @@ app.get('/diceChallenge', function(req, res){
   res.sendFile(__dirname + '/diceChallenge.html');
 })
 
-app.listen(100 || process.env.PORT, function(){
+app.listen(process.env.PORT || 100, function(){
   console.log("Server created at port 100.");
 })
