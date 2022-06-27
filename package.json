@@ -1,0 +1,14 @@
+{
+  "name": "kiddoz",
+  "version": "1.0.0",
+  "description": "Gaming Zone for Kids",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vedant Chitnis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

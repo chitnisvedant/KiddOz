@@ -1,0 +1,227 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #413F42;
+}
+
+p.text1{
+  color: grey;
+}
+/* Title section */
+#title {
+  background-color: #4FBDBA;
+  background-image: url(https://media.istockphoto.com/photos/vintage-retro-grungy-background-design-and-pattern-texture-picture-id656453072?k=20&m=656453072&s=612x612&w=0&h=txuUmEpOZqegdZuQw8ibPeopn3oHW6kmpKZZAChvZjY=);
+}
+
+.container-fluid {
+  padding: 50px 50px 100px 100px;
+}
+
+.margin {
+  padding-top: 25px;
+}
+
+.navbar {
+  height: 50px;
+  width: 90%;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 1.2rem 0;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.kidsTitle {
+  height: 400px;
+  transform: rotate(15deg);
+  position: absolute;
+}
+
+.btn-outline-dark {
+  border: 2px solid black;
+}
+
+.col-lg-5, .col-lg-7 {
+  padding-top: 40px;
+}
+
+/* Features Section */
+#features {
+  padding: 100px 200px 100px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.imgf {
+  color: #ef8172;
+}
+
+.imgf:hover {
+  color: #398AB9;
+}
+
+.h3f {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.pf {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px auto;
+  display: block;
+}
+
+.carousel-item {
+  padding: 100px 200px 100px;
+}
+
+
+.top{
+  margin: 0 0 0 0;
+  padding: 20px 20px;
+}
+
+.Press {
+  width: 200px;
+  padding: 10px 40px 40px;
+}
+
+/* Pricing Section */
+#GameZone {
+  text-align: center;
+  padding: 70px 20px;
+  background-image: url("https://cdn.dribbble.com/users/5946079/screenshots/15271639/my-playing-design-2_4x.jpg");
+}
+
+#Reading {
+  text-align: center;
+  padding: 70px 20px;
+  background-image: url("http://st.depositphotos.com/1027431/2464/v/450/depositphotos_24645849-Abstract-Blue-Background.jpg");
+}
+
+.gameZoneHeading{
+  color: #E4D1B9;
+}
+
+.readingHeading{
+  color: #398AB9;
+}
+
+.iconSize{
+  height: 150px;
+  width: 150px;
+  align-items: center;
+}
+
+.card-img-top{
+  width: 25rem;
+  height: 25em;
+}
+
+.card {
+  margin: auto;
+  margin-top: 10px;
+  border: 0;
+}
+
+.card-title-1{
+  font-size: 18px;
+}
+
+.card1{
+  background-color: #4FBDBA;
+}
+
+.card11{
+  background-color: #E4D1B9;
+}
+
+.card2{
+  background-color: #8D8DAA;
+}
+
+.card3{
+  background-color: #BABD42;
+}
+
+#footer{
+  background-image: url("https://cdn.dribbble.com/users/5946079/screenshots/15271639/my-playing-design-2_4x.jpg");
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.foot{
+  color: grey;
+}
+.hcta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 40px;
+}
+
+
+@media (max-width:994px) {
+  #title {
+    text-align: center;
+  }
+
+  .dogphone {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .testim {
+    line-height: 1.5;
+    font-size: 1.25rem;
+  }
+}
